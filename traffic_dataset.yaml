@@ -1,0 +1,8 @@
+path: D:/deep_study/yolo/traffic_dataset
+train: train_val/train-image
+val: improve_data/images
+#path 是 SPLObjDetectDatasetV2 文件夹的绝对路径。
+# 类别数量
+nc: 2
+# 类别名称
+names: ['Motor Vehicle', 'Non_motorized Vehicle']
